@@ -71,3 +71,11 @@ for (int j = 0; j < n; j++)
     cout << endl; // Output baris kosong
 }
 
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("Pause");
+    return 0;
+}
